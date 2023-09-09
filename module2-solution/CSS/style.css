@@ -24,16 +24,28 @@
     position: relative; /* Pour positionner les titres de section */
 }
 
-/* Styles pour les titres de section */
-.section-title {
-    position: absolute;
-    top: 0;
-    right: 0;
-    background-color: #333; /* Couleur d'arrière-plan des titres de section */
-    color: #fff; /* Couleur du texte des titres de section */
-    padding: 5px 10px;
-    border: 1px solid #000; /* Bordure de 1 px autour des titres de section */
-}
+        /* Styles pour les section-titles avec des couleurs différentes */
+        .section-title {
+            position: absolute;
+            top: 0;
+            right: 0;
+            color: #fff;
+            padding: 5px 10px;
+            border: 1px solid #000;
+        }
+
+        .section-title-chicken {
+            background-color: #FF5733; /* Couleur d'arrière-plan pour la section "Poulet" */
+        }
+
+        .section-title-beef {
+            background-color: #5B8930; /* Couleur d'arrière-plan pour la section "Bœuf" */
+        }
+
+        .section-title-sushi {
+            background-color: #0078D4; /* Couleur d'arrière-plan pour la section "Sushi" */
+        }
+
 
 /* Réponse aux requêtes multimédias pour les écrans de bureau */
 @media (min-width: 992px) {
