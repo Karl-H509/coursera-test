@@ -1,43 +1,43 @@
-        /* Styles pour la mise en page de base */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
+  /* Styles pour la mise en page de base */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
 
-        /* Styles pour les sections */
-        .section-container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            margin: 10px;
-        }
+/* Styles pour les sections */
+.section-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px;
+}
 
-        .section {
-            flex: 0 0 calc(33.33% - 20px); /* Chaque section occupe initialement 1/3 de l'écran avec espacement */
-            box-sizing: border-box;
-            padding: 20px;
-            text-align: center;
-            background-color: #f0f0f0; /* Couleur d'arrière-plan des sections */
-            border: 1px solid #000; /* Bordure de 1 px autour de chaque section */
-            margin-bottom: 20px; /* Espacement vertical entre les sections */
-            position: relative; /* Pour positionner les titres de section */
-        }
+.section {
+    flex: 0 0 calc(33.33% - 20px); /* Chaque section occupe initialement 1/3 de l'écran avec espacement */
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: left;
+    background-color: #f0f0f0; /* Couleur d'arrière-plan des sections */
+    border: 1px solid #000; /* Bordure de 1 px autour de chaque section */
+    margin-bottom: 20px; /* Espacement vertical entre les sections */
+    position: relative; /* Pour positionner les titres de section */
+}
 
-        /* Styles pour les titres de section */
-        .section-title {
-            position: absolute;
-            top: 10px;
-            right: 10px;
-            background-color: #333; /* Couleur d'arrière-plan des titres de section */
-            color: #fff; /* Couleur du texte des titres de section */
-            padding: 5px 10px;
-            border: 1px solid #000; /* Bordure de 1 px autour des titres de section */
-        }
+/* Styles pour les titres de section */
+.section-title {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #333; /* Couleur d'arrière-plan des titres de section */
+    color: #fff; /* Couleur du texte des titres de section */
+    padding: 5px 10px;
+    border: 1px solid #000; /* Bordure de 1 px autour des titres de section */
+}
 
-        /* Réponse aux requêtes multimédias pour les écrans de bureau */
-        @media (min-width: 992px) {
-            .section {
-                flex: 0 0 calc(33.33% - 20px); /* Chaque section continue d'occuper 1/3 de l'écran avec espacement */
-            }
-        }
+/* Réponse aux requêtes multimédias pour les écrans de bureau */
+@media (min-width: 992px) {
+    .section {
+        flex: 0 0 calc(33.33% - 20px); /* Chaque section continue d'occuper 1/3 de l'écran avec espacement */
+    }
+}
