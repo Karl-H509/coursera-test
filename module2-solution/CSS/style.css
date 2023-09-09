@@ -3,8 +3,11 @@
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    text-align: center
 }
-
+h1{
+    margin-top: 20px;
+}
 /* Styles pour les sections */
 .section-container {
     display: flex;
